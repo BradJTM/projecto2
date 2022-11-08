@@ -1,8 +1,11 @@
 package git01;
-
+import java.util.scanner;
 public class TextGit {
+	
 	public static void main(String[] args) {
-		String name	= 	"Bugs Bunny";
-		System.out.println("Hello" + name + "!"); 
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextline();
+		System.out.println("Hello" + name + "!");
+		scanner.close();
 	}
 }
